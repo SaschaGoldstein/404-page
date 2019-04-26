@@ -5,27 +5,44 @@ html {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     overflow: hidden;
-    background-color:none;
-    position: fixed;
-    top: 0%;
-    width: 100%;
+    background-color:#dddddd;
 }
 
+
 li {
-    float: right;
+    float: left;
 }
 
 li a {
     display: block;
-    color:black;
-    text-align:center;
-    padding: 14xp 16xp;
-    text-decoration: none;
+    color: rgb(56, 53, 53);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+a{
+display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
 li a:hover {
-    background-color: white;
+    background-color:#111;
 }
+
+h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 350%;
+}
+div{
+    text-align: center;
+    height: 500px;
+    padding-top: 200px; 
+}    
+
+
+
